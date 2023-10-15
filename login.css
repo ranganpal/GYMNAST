@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    height: 60px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+#packages {
+    height: 30vh;
+    background-color: #ccc;
+}
+
+#registration {
+    height: 64vh;
+    background-color: #ccc;
+}
+
+footer a {
+    color: white;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 25vh;
+}
+
+.card-body {
+    border: 2px solid black;
+    margin: 10px;
+    background-color: #7d7d7d;
+    font-size: 25px;
+    padding: 31px;
+
+}
+
+.form_container {
+    margin: 10px;
+}
+
+.form_components{
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form_components label{
+    font-size: 20px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    height: 35px;
+}
+
+button[type="submit"] {
+    background-color: rgb(0, 102, 204);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(51, 122, 183);
+}

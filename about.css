@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    height: 60px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer a {
+    color: white;
+}
+
+body {
+    background-color: #ccc;
+}
+
+
+.container {
+    padding: 20px 0px;
+    margin: 0px 70px;
+    background-color: #ccc;
+    display: grid;
+}
+
+.box1 {
+    background-color: #7d7d7d;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box1 p {
+    padding: 10px 0px;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: justify;
+}
+
+.box2 {
+    margin: 10px;
+    background-color: #7d7d7d;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box2 h1 {
+    padding: 10px 292px 20px;
+}
+
+.trainers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.trainer1 {
+    width: 230px;
+    height: 250px;
+    padding-bottom: 10px;
+    background-image: url(image/team-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.trainer2 {
+    width: 230px;
+    height: 250px;
+    padding-bottom: 10px;
+    background-image: url(image/team-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.trainer3 {
+    width: 230px;
+    height: 250px;
+    padding-bottom: 10px;
+    background-image: url(image/team-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.name {
+    color: white;
+    font-size: 25px;
+}
+
+.box3 {
+    background-color: #7d7d7d;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box3 h1 {
+    padding-bottom: 20px;
+}
+
+table,
+th,
+td {
+    border: 3px solid black;
+    font-size: 20px;
+}

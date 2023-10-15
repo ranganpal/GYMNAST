@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    height: 100vh;
+    text-align: center;
+    background-color: #333;
+    color: rgb(241, 184, 78);
+    background-image: url(image/gym1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+}
+
+.heading {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading h1 {
+    font-size: 60px;
+    background-color: rgba(255, 255, 255, 0.285);
+}
+
+.heading p {
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.285);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+header a {
+    color: white;
+}
